@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b1426"><meta name="description" content="Pia Gianne M. Portento — BS Information Technology student focused on mobile and web applications."><title>Pia Portento — IT Student & Maker</title>
+<style>
+:root{--navy:#0b1426;--panel:#111f34;--panel2:#172740;--white:#f7f6f2;--muted:#a8b2c2;--gold:#d9b56d;--goldlite:#f2dfb4;--line:#ffffff1b;--serif:Georgia,'Times New Roman',serif;--sans:Inter,'Segoe UI',Arial,sans-serif;--width:1100px}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:82px}body{margin:0;background:var(--navy);color:var(--white);font-family:var(--sans);line-height:1.6}a{color:inherit;text-decoration:none}button{font:inherit}.wrap{width:min(var(--width),calc(100% - 48px));margin:auto}.topbar{height:74px;position:sticky;top:0;z-index:20;background:#0b1426ed;border-bottom:1px solid var(--line);backdrop-filter:blur(14px)}.nav-inner{height:100%;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:10px;font:600 17px var(--serif)}.brand-mark{width:27px;height:27px;border:1.5px solid var(--gold);color:var(--gold);display:grid;place-items:center;transform:rotate(45deg);border-radius:7px;font-size:12px}.brand-mark span{transform:rotate(-45deg)}.nav-links{display:flex;align-items:center;gap:24px}.nav-links a{font-size:10px;text-transform:uppercase;letter-spacing:.1em;color:#d0d5de;transition:color .2s}.nav-links a:hover{color:var(--gold)}.nav-links .nav-contact{border:1px solid #d9b56d88;border-radius:24px;padding:8px 14px}.menu-toggle{display:none;background:none;border:1px solid var(--line);border-radius:8px;color:white;padding:6px 10px;font-size:18px}.hero{min-height:610px;display:flex;align-items:center;position:relative;overflow:hidden;background:radial-gradient(ellipse at 82% 28%,#1a31534f,transparent 44%),linear-gradient(130deg,#0b1426 38%,#0f2036)}.hero:before{content:'';position:absolute;width:660px;height:660px;right:-130px;top:-80px;border-radius:50%;border:1px solid #d9b56d29;box-shadow:0 0 0 48px #d9b56d08,0 0 0 102px #d9b56d06}.hero:after{content:'';position:absolute;right:5%;bottom:8%;width:55%;height:140px;border-top:1px solid #d9b56d30;border-radius:50%;transform:rotate(-12deg);box-shadow:0 -18px 0 -17px #d9b56d50,0 -36px 0 -35px #d9b56d38,0 -54px 0 -53px #d9b56d26;pointer-events:none}.hero-inner{position:relative;z-index:1;display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:7%;padding:72px 0 86px}.eyebrow{display:flex;align-items:center;gap:10px;color:var(--gold);text-transform:uppercase;letter-spacing:.19em;font-size:10px;font-weight:700}.eyebrow:before{content:'';width:27px;height:1px;background:var(--gold)}.hero h1{font:500 clamp(48px,7vw,79px)/.98 var(--serif);letter-spacing:-.045em;margin:22px 0 17px;max-width:680px;color:var(--goldlite)}.hero-subtitle{font-size:16px;margin:0 0 6px;font-weight:500}.hero-focus{font-size:12px;color:var(--muted);letter-spacing:.04em}.hero-copy{max-width:530px;color:#bdc6d3;font-size:13px;line-height:1.85;margin:20px 0 26px}.actions{display:flex;gap:10px;flex-wrap:wrap}.button{display:inline-flex;align-items:center;justify-content:center;gap:8px;border-radius:30px;padding:12px 19px;border:1px solid var(--gold);background:var(--gold);color:#152033;font-size:11px;font-weight:700;transition:transform .2s,background .2s}.button:hover{transform:translateY(-2px);background:var(--goldlite)}.button.outline{background:transparent;color:var(--white);border-color:#ffffff55}.button.outline:hover{border-color:var(--gold);color:var(--gold)}.profile-card{justify-self:end;width:min(100%,340px);min-height:370px;border:1px solid #ffffff21;border-radius:18px;padding:23px;background:linear-gradient(155deg,#172740ef,#101c30f5);position:relative;box-shadow:0 26px 65px #02081070}.profile-top{display:flex;justify-content:space-between;color:var(--muted);font-size:9px;text-transform:uppercase;letter-spacing:.13em}.profile-top b{color:var(--gold)}.avatar-wrap{margin:25px auto 18px;width:133px;height:133px;border:1px solid #d9b56d80;border-radius:50%;display:grid;place-items:center;position:relative;background:radial-gradient(circle,#283c56,#14243a 68%)}.avatar-wrap:before,.avatar-wrap:after{content:'';position:absolute;inset:-8px;border:1px solid #d9b56d2c;border-radius:50%}.avatar-wrap:after{inset:12px;border-style:dashed;border-color:#ffffff30}.avatar{font:italic 44px var(--serif);color:var(--goldlite);letter-spacing:-.08em}.profile-caption{text-align:center}.profile-caption h2{font:500 22px var(--serif);margin:0 0 3px}.profile-caption p{font-size:10px;color:var(--muted);margin:0}.profile-divider{height:1px;background:var(--line);margin:18px 0 14px}.profile-meta{display:flex;justify-content:space-between;font-size:10px;color:var(--muted)}.profile-meta strong{color:var(--white);font-weight:600}.status-dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:#86c69b;margin-right:6px}.hero-note{position:absolute;right:-15px;bottom:42px;border:1px solid #d9b56d52;background:#111e33;padding:10px 13px;border-radius:10px;color:var(--goldlite);font:italic 13px var(--serif);box-shadow:0 12px 30px #0004;transform:rotate(3deg)}.section{padding:82px 0;border-top:1px solid var(--line)}.section-head{display:flex;align-items:end;justify-content:space-between;gap:25px;margin-bottom:29px}.section-label{color:var(--gold);font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.18em;margin-bottom:9px}.section-title{font:500 clamp(30px,4vw,44px)/1.1 var(--serif);letter-spacing:-.025em;margin:0}.section-intro{color:var(--muted);font-size:12px;max-width:390px;margin:0}.about-grid{display:grid;grid-template-columns:.95fr 1.05fr;gap:20px}.about-card,.info-card,.skill-card,.subject-card,.project-card,.demo-card,.contact-card{border:1px solid var(--line);background:var(--panel);border-radius:15px}.about-card{padding:26px}.about-card h3{font:500 22px var(--serif);margin:0 0 11px}.about-card p{font-size:12px;color:#bbc5d2;line-height:1.9;margin:0 0 12px}.hobbies{margin-top:20px}.hobby-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:9px}.hobby{background:#ffffff07;border:1px solid var(--line);padding:11px 12px;border-radius:10px;color:#d5dce5;font-size:10px}.hobby span{color:var(--gold);margin-right:6px}.about-aside{display:grid;gap:13px}.info-card{padding:18px 20px;display:flex;gap:15px;align-items:flex-start;transition:transform .2s,border-color .2s}.info-card:hover,.skill-card:hover,.subject-card:hover,.project-card:hover{transform:translateY(-3px);border-color:#d9b56d66}.icon-box{width:37px;height:37px;flex:0 0 37px;display:grid;place-items:center;border-radius:10px;background:#d9b56d17;color:var(--gold);font-size:16px}.info-card h3{font-size:12px;margin:0 0 5px}.info-card p{font-size:10px;color:var(--muted);margin:0;line-height:1.7}.places-layout{display:grid;grid-template-columns:1.1fr .9fr;gap:16px}.map-panel,.place-detail{border:1px solid var(--line);border-radius:15px;overflow:hidden;background:linear-gradient(145deg,#12223a,#0e1a2c)}.map-panel{position:relative;min-height:365px}.map-caption{position:absolute;top:18px;left:20px;z-index:1}.map-caption strong{display:block;font:500 19px var(--serif)}.map-caption span{font-size:9px;color:var(--muted);letter-spacing:.12em;text-transform:uppercase}.home-map{width:100%;height:100%;min-height:365px}.map-gridline{stroke:#ffffff0b;stroke-width:1}.island{fill:#243b55;stroke:#456079;stroke-width:1.4}.island-small{fill:#243b55;stroke:#456079;stroke-width:1}.map-water-label{fill:#8295aa;font:10px var(--sans);letter-spacing:3px}.map-marker{cursor:pointer;outline:none}.map-marker .halo{fill:#d9b56d;opacity:.16}.map-marker .pin{fill:var(--gold);stroke:#fff3d5;stroke-width:2}.map-marker.active .pin,.map-marker:hover .pin{fill:#fff0c8;stroke:var(--gold);stroke-width:3}.map-marker:focus-visible .pin{stroke:#fff;stroke-width:4}.map-marker text{fill:#fff2d1;font:600 10px var(--sans);paint-order:stroke;stroke:#102039;stroke-width:4px;stroke-linejoin:round}.map-key{position:absolute;bottom:14px;left:18px;color:#b8c2d0;font-size:9px;background:#0b1426c9;border:1px solid var(--line);padding:7px 10px;border-radius:20px}.place-detail{padding:25px;display:flex;flex-direction:column;justify-content:space-between}.place-detail .place-type{font-size:9px;color:var(--gold);text-transform:uppercase;letter-spacing:.17em;font-weight:700}.place-detail h3{font:500 29px/1.15 var(--serif);margin:8px 0}.place-detail p{font-size:12px;color:var(--muted);line-height:1.8}.place-detail .place-region{color:#e7eaf0;font-size:11px}.place-choices{display:grid;gap:8px;margin-top:20px}.place-choice{display:flex;justify-content:space-between;align-items:center;text-align:left;width:100%;border:1px solid var(--line);background:#ffffff05;color:#e9edf2;border-radius:9px;padding:10px 12px;font-size:10px;cursor:pointer;transition:border-color .2s,background .2s}.place-choice:hover,.place-choice.active{border-color:#d9b56d88;background:#d9b56d12}.place-choice b{font-weight:600}.place-choice span{font-size:9px;color:var(--muted)}.education-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:17px}.education-card{padding:26px;border:1px solid #d9b56d4d;background:linear-gradient(135deg,#172740,#111d31);border-radius:15px;position:relative;overflow:hidden}.education-card:after{content:'NU';position:absolute;right:17px;bottom:-33px;color:#ffffff07;font:700 128px var(--serif)}.education-card>*{position:relative;z-index:1}.education-card .school{font:500 26px var(--serif);margin:7px 0}.education-card .course{font-size:13px;margin:0 0 4px}.education-card .specialization{color:var(--muted);font-size:11px;margin:0}.education-pills{display:flex;gap:7px;flex-wrap:wrap;margin-top:19px}.pill{border:1px solid #ffffff25;color:#dce1e8;border-radius:20px;padding:5px 9px;font-size:9px}.pill.gold{border-color:#d9b56d68;color:var(--goldlite)}.edu-note{padding:24px;border:1px solid var(--line);border-radius:15px;background:#ffffff05;display:flex;flex-direction:column;justify-content:center}.edu-note .year{font:500 40px var(--serif);color:var(--goldlite);line-height:1}.edu-note p{color:var(--muted);font-size:11px;margin:10px 0 0}.skills-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:11px}.skill-card{padding:15px;display:flex;align-items:center;gap:11px;transition:transform .2s,border-color .2s}.skill-symbol{width:33px;height:33px;display:grid;place-items:center;border-radius:9px;background:#d9b56d12;color:var(--gold);font:600 11px var(--serif)}.skill-card span:last-child{font-size:11px;color:#e1e5eb}.skill-level{display:block;font-size:9px;color:var(--muted);margin-top:2px}.subjects-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.subject-card{padding:19px;min-height:126px;transition:transform .2s,border-color .2s}.subject-no{font-size:9px;color:var(--gold);letter-spacing:.15em}.subject-card h3{font:500 17px/1.35 var(--serif);margin:15px 0 0}.projects-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.project-card{overflow:hidden;transition:transform .2s,border-color .2s}.project-visual{height:140px;padding:16px;display:flex;align-items:end;position:relative;overflow:hidden;background:linear-gradient(145deg,#1a3554,#101a2d)}.project-visual:before{content:'';position:absolute;width:180px;height:180px;border-radius:50%;border:1px solid #d9b56d32;right:-38px;top:-90px;box-shadow:0 0 0 24px #d9b56d0b,0 0 0 48px #d9b56d08}.project-card:nth-child(2) .project-visual{background:linear-gradient(145deg,#263850,#122034)}.project-card:nth-child(3) .project-visual{background:linear-gradient(145deg,#1b3144,#101a2d)}.project-type{position:relative;z-index:1;color:var(--goldlite);font-size:9px;text-transform:uppercase;letter-spacing:.14em}.project-body{padding:18px}.project-body h3{font:500 19px var(--serif);margin:0 0 8px}.project-body p{font-size:10px;color:var(--muted);line-height:1.8;margin:0 0 14px}.tech-tags{display:flex;flex-wrap:wrap;gap:6px}.tech-tags span{border:1px solid #ffffff1c;border-radius:20px;padding:4px 8px;color:#d2dae4;font-size:9px}.demo-section{background:linear-gradient(180deg,transparent,#101c2f88,transparent)}.demo-layout{display:grid;grid-template-columns:.82fr 1.18fr;gap:20px;align-items:stretch}.demo-copy{padding:24px 0}.demo-copy h3{font:500 26px var(--serif);margin:0 0 10px}.demo-copy p{font-size:11px;color:var(--muted);line-height:1.8;max-width:350px}.demo-hint{border-left:2px solid var(--gold);padding:10px 0 10px 14px;color:#d9dee6;font-size:11px;margin-top:19px}.demo-card{padding:21px}.demo-card-head{display:flex;align-items:center;justify-content:space-between;gap:10px;border-bottom:1px solid var(--line);padding-bottom:14px;margin-bottom:10px}.demo-card-head h3{font:500 18px var(--serif);margin:0}.demo-card-head span{color:var(--gold);font-size:9px;text-transform:uppercase;letter-spacing:.1em}.demo-fields{display:grid;grid-template-columns:1fr 1fr;gap:0 15px}.demo-field{padding:9px 0;border-bottom:1px solid #ffffff0d}.demo-field.full{grid-column:1/-1}.demo-field dt{font-size:8px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-bottom:3px}.demo-field dd{margin:0;font-size:10px;color:#edf0f4;overflow-wrap:anywhere}.demo-field dd.is-deleted{color:#e2a38e;font-style:italic}.demo-subjects{display:flex;gap:6px;flex-wrap:wrap}.demo-subjects span{color:var(--goldlite);border:1px solid #d9b56d42;border-radius:20px;padding:4px 8px;font-size:9px}.demo-result{min-height:31px;color:var(--goldlite);font:italic 12px var(--serif);padding:8px 0 2px}.demo-actions{display:flex;gap:7px;flex-wrap:wrap;margin-top:9px}.demo-actions button{border:1px solid #ffffff34;background:transparent;color:var(--white);border-radius:22px;padding:8px 11px;font-size:9px;cursor:pointer;transition:all .2s}.demo-actions button:hover{border-color:var(--gold);color:var(--gold)}.demo-actions button.primary{background:var(--gold);border-color:var(--gold);color:#111c2e;font-weight:700}.demo-actions button.primary:hover{background:var(--goldlite)}.demo-actions button:disabled{opacity:.42;cursor:not-allowed}.contact-grid{display:grid;grid-template-columns:1fr .8fr;gap:16px}.contact-card{padding:25px}.contact-card h3{font:500 23px var(--serif);margin:0 0 8px}.contact-card p{color:var(--muted);font-size:11px;line-height:1.8}.email-link{display:inline-flex;align-items:center;gap:8px;color:var(--goldlite);font-size:11px;border-bottom:1px solid #d9b56d66;padding-bottom:4px}.contact-detail{padding:13px 0;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:10px;font-size:10px}.contact-detail:last-child{border:0}.contact-detail span:first-child{color:var(--muted)}.contact-detail span:last-child{color:#e8ebef;text-align:right}.footer{border-top:1px solid var(--line);padding:23px 0 27px;color:var(--muted);font-size:9px}.footer-inner{display:flex;align-items:center;justify-content:space-between;gap:12px}.footer b{font:500 14px var(--serif);color:var(--white)}.footer a{color:var(--goldlite)}.reveal{opacity:0;transform:translateY(14px);transition:opacity .55s,transform .55s}.reveal.visible{opacity:1;transform:translateY(0)}
+@media(max-width:850px){.hero-inner{grid-template-columns:1fr .8fr;gap:4%}.profile-card{padding:19px;min-height:340px}.avatar-wrap{width:116px;height:116px;margin:20px auto 15px}.hero-note{right:-3px;bottom:22px}.nav-links{gap:13px}.about-grid,.education-grid,.demo-layout{grid-template-columns:1fr}.projects-grid{grid-template-columns:repeat(2,1fr)}.section{padding:67px 0}}
+@media(max-width:620px){.places-layout{grid-template-columns:1fr}.wrap{width:calc(100% - 34px)}.topbar{height:64px}.menu-toggle{display:block}.nav-links{display:none;position:absolute;top:63px;left:0;right:0;padding:12px 18px 18px;background:#0b1426;border-bottom:1px solid var(--line);flex-direction:column;align-items:stretch;gap:0}.nav-links.open{display:flex}.nav-links a{padding:11px 4px;border-bottom:1px solid #ffffff0d}.nav-links .nav-contact{text-align:center;margin-top:9px}.hero{min-height:unset}.hero-inner{grid-template-columns:1fr;padding:58px 0 68px;gap:32px}.hero h1{font-size:clamp(46px,12vw,66px)}.hero-copy{font-size:12px}.profile-card{justify-self:start;width:min(100%,365px);min-height:unset}.hero:before{width:420px;height:420px;right:-230px;top:160px}.hero:after{width:90%;right:-9%;bottom:4%}.section{padding:56px 0}.section-head{display:block;margin-bottom:22px}.section-intro{margin-top:11px}.about-card{padding:20px}.hobby-grid{grid-template-columns:1fr 1fr}.skills-grid{grid-template-columns:repeat(2,1fr);gap:8px}.skill-card{padding:11px 9px;gap:8px}.skill-card span:last-child{font-size:10px}.subjects-grid{grid-template-columns:1fr}.subject-card{min-height:unset;padding:16px}.subject-card h3{margin-top:9px}.projects-grid{grid-template-columns:1fr}.project-visual{height:120px}.demo-card{padding:16px}.demo-card-head{align-items:flex-start;flex-direction:column}.contact-grid{grid-template-columns:1fr}.contact-card{padding:20px}.footer-inner{align-items:flex-start;flex-direction:column}.edu-note{min-height:140px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation-duration:.01ms!important;transition-duration:.01ms!important}.reveal{opacity:1;transform:none}}
+</style></head><body>
+<header class="topbar"><div class="wrap nav-inner"><a class="brand" href="#home"><span class="brand-mark"><span>✦</span></span><span>Pia Portento</span></a><button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button><nav class="nav-links" id="navLinks" aria-label="Main navigation"><a href="#about">About</a><a href="#places">Places</a><a href="#education">Education</a><a href="#skills">Skills</a><a href="#subjects">Subjects</a><a href="#projects">Projects</a><a href="#contact" class="nav-contact">Contact</a></nav></div></header>
+<main>
+<section class="hero" id="home"><div class="wrap hero-inner"><div><div class="eyebrow">Student portfolio · Manila, Philippines</div><h1 id="heroName">Pia Gianne M. Portento</h1><p class="hero-subtitle" id="heroCourse">BS Information Technology Student</p><p class="hero-focus">Mobile and Web Applications ／ <span id="heroYear">3rd Year</span></p><p class="hero-copy">I’m learning to turn ideas into useful mobile and web experiences. This is where I share what I’m studying, building, and enjoying along the way.</p><div class="actions"><a class="button" href="#projects">View My Work <span></span></a><a class="button outline" href="#about">About Me</a></div></div><aside class="profile-card"><div class="profile-top"><span>Personal portfolio</span><b>2026</b></div><div class="avatar-wrap" aria-hidden="true"><span class="avatar">PG</span></div><div class="profile-caption"><h2 id="profileName">Pia Gianne M. Portento</h2><p>Curious mind · hands-on learner</p></div><div class="profile-divider"></div><div class="profile-meta"><span><i class="status-dot"></i><strong id="heroStatus">Currently Enrolled</strong></span><span id="heroSection">INF246</span></div><div class="hero-note">learning by making ✦</div></aside></div></section>
+<section class="section" id="about"><div class="wrap"><div class="section-head"><div><div class="section-label">A little about me</div><h2 class="section-title">Curious by nature,<br>creative by habit.</h2></div><p class="section-intro">A student, a maker, and a fan of finding the fun in everyday things.</p></div><div class="about-grid"><article class="about-card reveal"><h3>Hi, I’m Pia.</h3><p>I’m a third-year BS Information Technology student at National University Manila, specializing in Mobile and Web Applications. I enjoy learning how an idea can grow from a sketch into something people can actually use.</p><p>I’m still figuring things out one project at a time. I like trying new tools, asking questions, and making little improvements until a design or feature feels right.</p><div class="hobbies"><h3>Off-screen, I’m usually…</h3><div class="hobby-grid"><div class="hobby"><span>✦</span>Getting ready and playing with makeup</div><div class="hobby"><span>✦</span>Finding a new good-food spot</div><div class="hobby"><span>✦</span>Cooking my cravings instead of ordering</div><div class="hobby"><span>✦</span>Going for a motor ride</div><div class="hobby"><span>✦</span>Styling my motor and its parts</div><div class="hobby"><span>✦</span>Taking photos and collecting playlists</div></div></div></article><div class="about-aside"><article class="info-card reveal"><div class="icon-box">⌘</div><div><h3>What I’m into</h3><p>Mobile and web development, thoughtful interfaces, and learning how the pieces behind an app work together.</p></div></article><article class="info-card reveal"><div class="icon-box"></div><div><h3>How I like to learn</h3><p>By trying things out, building small projects, making mistakes, and improving the next version.</p></div></article><article class="info-card reveal"><div class="icon-box">♡</div><div><h3>My kind of balance</h3><p>A little coding, a little cooking, a ride when the weather is nice, and getting ready just because it’s fun.</p></div></article></div></div></div></section>
+<section class="section" id="places"><div class="wrap"><div class="section-head"><div><div class="section-label">A personal map</div><h2 class="section-title">Places I call home</h2></div><p class="section-intro">My current home and a couple of places connected to me, marked on a simple island map.</p></div><div class="places-layout"><div class="map-panel"><div class="map-caption"><span>Philippines · personal places</span><strong>My map</strong></div><svg class="home-map" viewBox="0 0 700 430" role="img" aria-label="Illustrative map marking Cainta in Rizal, Milaor in Camarines Sur, and San Isidro in Marinduque"><path class="map-gridline" d="M0 110H700M0 220H700M0 330H700M175 0V430M350 0V430M525 0V430"/><text class="map-water-label" x="92" y="244">SOUTH CHINA SEA</text><text class="map-water-label" x="532" y="298">PHILIPPINE SEA</text><path class="island" d="M384 42l24-13 26 9 15 22-4 22 17 17-6 23 12 19-8 25-18 13-3 25-14 14-9 30-19 13-17-8-14 10-11-12 5-23-9-18 9-20-4-21 13-17 3-20 16-12 1-23 12-13-6-21 7-19z"/><path class="island-small" d="M330 220l14-11 15 4 6 13-8 21-12 11-12-9-6-14z"/><path class="island-small" d="M382 244l13-6 11 5 4 10-8 9-14-2-8-8z"/><path class="island-small" d="M438 235l17-6 15 6 6 15-11 12-18-4-10-10z"/><path class="island-small" d="M476 258l14-4 10 8-3 12-15 4-9-8z"/><path class="island-small" d="M520 244l18-7 18 7 3 17-12 12-20-5-11-12z"/><path class="island-small" d="M546 284l13-5 15 7 4 13-11 8-16-4-8-10z"/><path class="island-small" d="M502 294l9-4 8 7-1 14-8 5-9-7z"/><path class="island-small" d="M471 325l18-8 23 4 15 15-8 18-21 11-21-6-12-14z"/><text class="map-water-label" x="420" y="118">LUZON</text><text class="map-water-label" x="405" y="302">MARINDUQUE</text><g class="map-marker active" data-place="cainta" tabindex="0" role="button" aria-label="Cainta, Rizal — current home" transform="translate(421 143)"><circle class="halo" r="15"/><circle class="pin" r="6"/><text x="11" y="-10">Cainta · Rizal</text></g><g class="map-marker" data-place="milaor" tabindex="0" role="button" aria-label="Milaor, Camarines Sur" transform="translate(461 220)"><circle class="halo" r="15"/><circle class="pin" r="6"/><text x="11" y="17">Milaor · Camarines Sur</text></g><g class="map-marker" data-place="san-isidro" tabindex="0" role="button" aria-label="San Isidro, Marinduque" transform="translate(395 258)"><circle class="halo" r="15"/><circle class="pin" r="6"/><text x="-117" y="20">San Isidro · Marinduque</text></g></svg><div class="map-key"><span style="color:var(--gold)">●</span> Personal places · illustrative map</div></div><aside class="place-detail"><div id="placeInfo"><div class="place-type">Current home</div><h3>Cainta, Rizal</h3><p>My current home, just east of Metro Manila.</p><div class="place-region">Rizal · CALABARZON</div></div><div class="place-choices" id="placeChoices" aria-label="Choose a place"></div></aside></div></div></section><section class="section" id="education"><div class="wrap"><div class="section-head"><div><div class="section-label">The learning chapter</div><h2 class="section-title">Education</h2></div><p class="section-intro">Building a foundation in information technology and application development.</p></div><div class="education-grid"><article class="education-card reveal"><div class="section-label">Currently studying</div><h3 class="school">National University Manila</h3><p class="course" id="educationCourse">BS Information Technology</p><p class="specialization">Specialization: Mobile and Web Applications</p><div class="education-pills"><span class="pill gold" id="educationYear">3rd Year</span><span class="pill" id="educationSection">Section INF246</span><span class="pill" id="educationStatus">Currently Enrolled</span></div></article><aside class="edu-note reveal"><div class="year">03<span style="color:var(--gold);font-size:23px"> / 04</span></div><p>Year of study<br>Learning a little more with every semester.</p></aside></div></div></section>
+<section class="section" id="skills"><div class="wrap"><div class="section-head"><div><div class="section-label">Tools in my student toolkit</div><h2 class="section-title">Skills I’m growing</h2></div><p class="section-intro">A mix of coding, design, and technical foundations I’ve been practicing in class and projects.</p></div><div class="skills-grid"><div class="skill-card reveal"><span class="skill-symbol">&lt;/&gt;</span><span>HTML<small class="skill-level">Building blocks</small></span></div><div class="skill-card reveal"><span class="skill-symbol">✧</span><span>CSS<small class="skill-level">Layouts & styling</small></span></div><div class="skill-card reveal"><span class="skill-symbol">JS</span><span>JavaScript<small class="skill-level">Interactivity</small></span></div><div class="skill-card reveal"><span class="skill-symbol">PHP</span><span>PHP<small class="skill-level">Web programming</small></span></div><div class="skill-card reveal"><span class="skill-symbol">SQL</span><span>MySQL<small class="skill-level">Database basics</small></span></div><div class="skill-card reveal"><span class="skill-symbol">J</span><span>Java<small class="skill-level">Object-oriented basics</small></span></div><div class="skill-card reveal"><span class="skill-symbol">⌘</span><span>Networking<small class="skill-level">Routing & fundamentals</small></span></div><div class="skill-card reveal"><span class="skill-symbol">◫</span><span>UI/UX Design<small class="skill-level">Wireframes & usability</small></span></div><div class="skill-card reveal"><span class="skill-symbol">▣</span><span>Mobile Development<small class="skill-level">Learning by building</small></span></div></div></div></section>
+<section class="section" id="subjects"><div class="wrap"><div class="section-head"><div><div class="section-label">On my study list</div><h2 class="section-title">Current subjects</h2></div><p class="section-intro">A few of the classes shaping what I’m learning right now.</p></div><div class="subjects-grid" id="subjectList" aria-live="polite"></div></div></section>
+<section class="section" id="projects"><div class="wrap"><div class="section-head"><div><div class="section-label">Made for class, built to learn</div><h2 class="section-title">Selected projects</h2></div><p class="section-intro">Academic work and practice projects where I got to connect ideas with real use cases.</p></div><div class="projects-grid"><article class="project-card reveal"><div class="project-visual"><span class="project-type">Mobile + Web · Academic Project</span></div><div class="project-body"><h3>DormWatch</h3><p>A mobile and web-based dormitory incident reporting and management system designed to make it easier to submit and track concerns.</p><div class="tech-tags"><span>Mobile App</span><span>Web Dashboard</span><span>Reporting</span></div></div></article><article class="project-card reveal"><div class="project-visual"><span class="project-type">Web Application · Academic Project</span></div><div class="project-body"><h3>Community Complaint and Service Request Management System</h3><p>A student project concept for reporting community complaints and managing service requests from submission through follow-up.</p><div class="tech-tags"><span>Web App</span><span>Database</span><span>UI Design</span></div></div></article><article class="project-card reveal"><div class="project-visual"><span class="project-type">Networking · Class Activities</span></div><div class="project-body"><h3>Networking Projects</h3><p>Cisco Packet Tracer activities exploring network layouts, device configuration, routing, and how connected systems communicate.</p><div class="tech-tags"><span>Packet Tracer</span><span>Routing</span><span>Network Basics</span></div></div></article></div></div></section>
+<section class="section demo-section" id="object-demo"><div class="wrap"><div class="section-head"><div><div class="section-label">A small peek under the hood</div><h2 class="section-title">JavaScript Object Demo</h2></div><p class="section-intro">This portfolio uses a Student object to display my details. Try a button and watch the object update.</p></div><div class="demo-layout"><div class="demo-copy"><h3>One object, a few useful details.</h3><p>The same student details power the introduction, education summary, subjects, and this interactive demo. The controls below demonstrate updating, deleting, and restoring object properties.</p><div class="demo-hint" id="methodOutput" aria-live="polite">Use “Show Name &amp; Section” to call the class method.</div></div><div class="demo-card reveal"><div class="demo-card-head"><h3>Student object</h3><span id="demoStatusBadge">Live data</span></div><dl class="demo-fields" id="studentDetails"></dl><div class="demo-result" id="demoMessage" aria-live="polite"></div><div class="demo-actions"><button class="primary" id="updateStatus">Update Status</button><button id="deleteEmail">Delete Email</button><button id="restoreStudent">Restore Student</button><button id="showNameSection">Show Name &amp; Section</button></div></div></div></div></section>
+<section class="section" id="contact"><div class="wrap"><div class="section-head"><div><div class="section-label">Say hello</div><h2 class="section-title">Let’s connect</h2></div><p class="section-intro">Have a question about a project or want to talk about an idea? I’d be happy to hear from you.</p></div><div class="contact-grid"><article class="contact-card reveal"><h3>Get in touch</h3><p>Email is the best way to reach me for school projects, collaboration, or a friendly hello.</p><div id="contactEmail"></div></article><aside class="contact-card reveal"><div class="contact-detail"><span>School</span><span>National University Manila</span></div><div class="contact-detail"><span>Program</span><span>BS Information Technology</span></div><div class="contact-detail"><span>Focus</span><span>Mobile &amp; Web Applications</span></div><div class="contact-detail"><span>Profiles</span><span>Coming soon</span></div></aside></div></div></section>
+</main><footer class="footer"><div class="wrap footer-inner"><div><b id="footerName">Pia Gianne M. Portento</b><span> · Student portfolio</span></div><div>Made with curiosity &amp; JavaScript <span style="color:var(--gold)">✦</span></div><a href="#home">Back to top ↑</a></div></footer>
+<script>
+// Student class: this simple class holds the portfolio details.
+class Student {
+  constructor(name, course, yearLevel, enrollmentStatus, email, subjects) {
+    this.name = name;
+    this.course = course;
+    this.yearLevel = yearLevel;
+    this.enrollmentStatus = enrollmentStatus;
+    this.email = email;
+    this.subjects = subjects;
+  }
+  // This method is called by the “Show Name & Section” demo button.
+  printStudentNameAndSection() {
+    return Student Name: ${this.name} | Section: ${this.section};
+  }
+}
+
+// Create a Student object using Pia's portfolio details.
+const student = new Student(
+  "Pia Gianne M. Portento",
+  "BS Information Technology",
+  "3rd Year",
+  "Currently Enrolled",
+  "portentopm@students.national-u.edu.ph",
+  ["Integrative Programming", "Advanced Mobile Programming", "Database Systems"]
+);
+
+// Add a new property after creating the object.
+student.section = "INF246";
+
+// Keep a copy of the starting values so Restore can undo the demo changes.
+const originalStudentValues = {
+  name: student.name, course: student.course, yearLevel: student.yearLevel,
+  enrollmentStatus: student.enrollmentStatus, email: student.email,
+  subjects: [...student.subjects], section: student.section
+};
+
+// Dot notation and destructuring: these values fill real portfolio content.
+function renderPortfolioDetails() {
+  const { name, course, yearLevel, enrollmentStatus, email, subjects } = student;
+  const { name: studentName, course: studentCourse } = student;
+  document.getElementById("heroName").textContent = student.name;
+  document.getElementById("heroCourse").textContent = ${studentCourse} Student;
+  document.getElementById("heroYear").textContent = student.yearLevel;
+  document.getElementById("profileName").textContent = studentName;
+  document.getElementById("heroStatus").textContent = student.enrollmentStatus;
+  document.getElementById("heroSection").textContent = student.section;
+  document.getElementById("educationCourse").textContent = course;
+  document.getElementById("educationYear").textContent = yearLevel;
+  document.getElementById("educationSection").textContent = Section ${student.section};
+  document.getElementById("educationStatus").textContent = enrollmentStatus;
+  document.getElementById("footerName").textContent = name;
+  // Build the subject cards from the Student object's array, not hardcoded list items.
+  document.getElementById("subjectList").innerHTML = subjects.map((subject, index) =>
+    <article class="subject-card reveal"><span class="subject-no">0${index + 1} / CURRENT SUBJECT</span><h3>${subject}</h3></article>
+  ).join("");
+  observeNewCards();
+  const hasEmail = Object.prototype.hasOwnProperty.call(student, "email");
+  renderStudentDemo(hasEmail);
+  renderContactEmail(email);
+}
+
+// Bracket notation: use property-name strings to read the Student object.
+function renderStudentDemo(hasEmail) {
+  const emailValue = hasEmail ? student["email"] : "Email property deleted";
+  const fields = [
+    ["Student Name", student["name"]], ["Course", student["course"]],
+    ["Year Level", student["yearLevel"]], ["Enrollment Status", student["enrollmentStatus"]],
+    ["Email", emailValue], ["Section", student["section"]]
+  ];
+  const fieldMarkup = fields.map(([label, value]) =>
+    <div class="demo-field"><dt>${label}</dt><dd class="${label === "Email" && !hasEmail ? "is-deleted" : ""}">${value}</dd></div>
+  ).join("");
+  const subjectTags = student["subjects"].map(subject => <span>${subject}</span>).join("");
+  document.getElementById("studentDetails").innerHTML = ${fieldMarkup}<div class="demo-field full"><dt>Subjects</dt><dd class="demo-subjects">${subjectTags}</dd></div>;
+  document.getElementById("demoStatusBadge").textContent = hasEmail ? "Live data" : "Email removed";
+  document.getElementById("deleteEmail").disabled = !hasEmail;
+}
+
+function renderContactEmail(email) {
+  const contact = document.getElementById("contactEmail");
+  contact.innerHTML = email
+    ? <a class="email-link" href="mailto:${student["email"]}"><span aria-hidden="true"></span>${student["email"]}</a>
+    : <span class="email-link">Email hidden in the object demo</span>;
+}
+
+// Update an existing property and show the change throughout the portfolio.
+document.getElementById("updateStatus").addEventListener("click", () => {
+  student.enrollmentStatus = student.enrollmentStatus === "Currently Enrolled" ? "Status Updated (Demo)" : "Currently Enrolled";
+  document.getElementById("demoMessage").textContent = Enrollment status is now “${student.enrollmentStatus}”.;
+  renderPortfolioDetails();
+});
+
+// Delete the email property only after the visitor presses the button.
+document.getElementById("deleteEmail").addEventListener("click", () => {
+  delete student.email;
+  document.getElementById("demoMessage").textContent = "The email property was deleted from the Student object.";
+  renderPortfolioDetails();
+});
+
+// Restore every starting value, including the email property and original status.
+document.getElementById("restoreStudent").addEventListener("click", () => {
+  Object.assign(student, originalStudentValues, { subjects: [...originalStudentValues.subjects] });
+  document.getElementById("demoMessage").textContent = "Student details restored to the original portfolio values.";
+  document.getElementById("methodOutput").textContent = "Use “Show Name & Section” to call the class method.";
+  renderPortfolioDetails();
+});
+
+// Call the class method and show its returned name and section.
+document.getElementById("showNameSection").addEventListener("click", () => {
+  document.getElementById("methodOutput").textContent = student.printStudentNameAndSection();
+});
+
+// Personal places for the portfolio map. Milaor is the Camarines Sur spelling.
+const personalPlaces = [
+  { id: "cainta", type: "Current home", name: "Cainta, Rizal", region: "Rizal · CALABARZON", description: "My current home, just east of Metro Manila." },
+  { id: "milaor", type: "Camarines Sur", name: "Milaor", region: "Camarines Sur · Bicol Region", description: "A municipality in Camarines Sur and one of the places on my personal map." },
+  { id: "san-isidro", type: "Marinduque", name: "San Isidro", region: "Marinduque · MIMAROPA", description: "San Isidro in Marinduque is another place connected to me." }
+];
+function selectPersonalPlace(placeId) {
+  const place = personalPlaces.find(item => item.id === placeId);
+  if (!place) return;
+  document.querySelectorAll(".map-marker").forEach(marker => {
+    marker.classList.toggle("active", marker.dataset.place === placeId);
+  });
+  document.querySelectorAll(".place-choice").forEach(button => {
+    button.classList.toggle("active", button.dataset.place === placeId);
+  });
+  document.getElementById("placeInfo").innerHTML = `
+    <div class="place-type">${place.type}</div><h3>${place.name}</h3>
+    <p>${place.description}</p><div class="place-region">${place.region}</div>`;
+}
+function renderPersonalPlaces() {
+  document.getElementById("placeChoices").innerHTML = personalPlaces.map(place => `
+    <button class="place-choice ${place.id === "cainta" ? "active" : ""}" data-place="${place.id}" type="button">
+      <b>${place.name}${place.id === "cainta" ? " · Current home" : ""}</b><span>View on map </span>
+    </button>`).join("");
+  document.querySelectorAll(".place-choice, .map-marker").forEach(control => {
+    control.addEventListener("click", () => selectPersonalPlace(control.dataset.place));
+    control.addEventListener("keydown", event => {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        selectPersonalPlace(control.dataset.place);
+      }
+    });
+  });
+}
+renderPersonalPlaces();
+// Responsive navigation menu for phones and small tablets.
+const menuToggle = document.getElementById("menuToggle");
+const navLinks = document.getElementById("navLinks");
+menuToggle.addEventListener("click", () => {
+  const isOpen = navLinks.classList.toggle("open");
+  menuToggle.setAttribute("aria-expanded", isOpen);
+  menuToggle.setAttribute("aria-label", isOpen ? "Close navigation" : "Open navigation");
+  menuToggle.textContent = isOpen ? "×" : "☰";
+});
+navLinks.querySelectorAll("a").forEach(link => link.addEventListener("click", () => {
+  navLinks.classList.remove("open");
+  menuToggle.setAttribute("aria-expanded", "false");
+  menuToggle.setAttribute("aria-label", "Open navigation");
+  menuToggle.textContent = "☰";
+}));
+
+// Reveal cards as they enter view, with a fallback for browsers without IntersectionObserver.
+let revealObserver;
+function observeNewCards() {
+  const newCards = document.querySelectorAll(".reveal:not(.visible)");
+  if (!("IntersectionObserver" in window)) {
+    newCards.forEach(card => card.classList.add("visible"));
+    return;
+  }
+  if (!revealObserver) {
+    revealObserver = new IntersectionObserver(entries => entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("visible");
+        revealObserver.unobserve(entry.target);
+      }
+    }), { threshold: 0.08 });
+  }
+  newCards.forEach(card => revealObserver.observe(card));
+}
+
+renderPortfolioDetails();
+observeNewCards();
+</script></body></html> 
